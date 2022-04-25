@@ -1,0 +1,111 @@
+
+.header
+{
+    height: auto;
+    background-color: #cecece;
+}
+.navbar-brand img{
+    width: 92px;
+    height: 70px; 
+}
+
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link
+{
+    border-right: 1px solid #4d4d4d;
+    height: 12px;
+    padding-bottom: 20px;
+    padding-top: 0.5px;
+}
+/* .ban
+{
+   height: 444px; 
+  width:fit-content;
+   object-fit: cover;
+   overflow-x: hidden;
+   background-size: 100% 100%;
+} */
+   .about-us{
+     color: #d52037;
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     font-size:xx-large;
+
+   }
+   .contact{
+    color: #d52037;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size:xx-large;
+    margin-bottom: 5px;
+
+   }
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    /* font-size: 48px; */
+    font-weight:bold;
+    padding:0px;
+    
+    color: #fff;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  /* .centered button {
+
+position: relative;
+font-weight: bold;
+font-size: 24px;
+color: #d52037;
+background-color: #f9f4f4;
+border-radius:7px;
+margin-top: 30px;
+padding: 15px;
+  } */
+ .mybtn{
+    color:white;
+    background-color:#db1e36;
+    border-radius: 12px;
+    font-weight:normal;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+  }
+  .form-control{
+    background-color:#e4e4e4;
+  }
+
+.footer{
+    text-align: center;
+    padding:15px;
+    background-color:#cecece;
+    font-size:16px;
+    align-items: center;
+    
+
+}
+.col-sm-6{
+  border-color: red;
+  border-radius: 5px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  
+  #head{
+    font-size: 12px;
+  }
+  #b1{
+    font-size: 6px;
+  }
+
+}
